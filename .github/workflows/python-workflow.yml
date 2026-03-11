@@ -13,7 +13,7 @@ jobs:
       with:
         python-version: 3.11
 
-    - name: Checkout
+    - name: actions/checkout
       uses: actions/checkout@v6.0.2
 
     - name: Install dependencies
